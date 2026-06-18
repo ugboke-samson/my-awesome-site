@@ -1,0 +1,1198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RAYTON Development Limited" />
+    <meta name="description" content="RAYTON Development Limited — Premier construction company in Lagos, Nigeria. Estate development, civil engineering, building design, and infrastructure projects." />
+    <meta property="og:title" content="RAYTON Development Ltd | Construction & Estate Lagos" />
+    <meta property="og:description" content="Premier construction company in Lagos delivering estate development, civil engineering, and infrastructure projects with quality, innovation, and professionalism." />
+    
+        <meta property="og:url" content="https://rayton.kite.space" />
+		<meta property="og:image" content="https://static.kite.ai/image/upload/c_fill,w_1200,h_630,g_north/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/screenshots/preview-image.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		
+		<!-- Open Graph video (may be ignored by many platforms, but valid) -->
+		<meta property="og:video" content="https://static.kite.ai/video/upload/w_1200/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/videos/desktop/preview-video.mp4" />
+		<meta property="og:video:type" content="video/mp4" />
+		<meta property="og:video:width" content="1280" />
+		<meta property="og:video:height" content="720" />
+		
+    <meta property="og:image:alt" content="RAYTON Development Limited construction site" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RAYTON Development Ltd | Construction & Estate Lagos" />
+    <meta name="twitter:description" content="Premier construction company in Lagos delivering estate development, civil engineering, and infrastructure projects." />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rayton.kite.space/" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "GeneralContractor",
+          "@id": "https://rayton.kite.space/#organization",
+          "name": "RAYTON Development Limited",
+          "url": "https://rayton.kite.space",
+          "telephone": "+2348067602811",
+          "email": "raytondevltd@gmail.com",
+          "description": "Premier construction company in Lagos, Nigeria delivering estate development, civil engineering, building design, and infrastructure projects with quality, innovation, and professionalism.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lagos",
+            "addressCountry": "NG"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/anthony-ugboke-717957111"
+          ],
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://static.kite.ai/image/upload/e_trim/f_png,q_auto,w_180,h_180,c_fit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/wh6pmkgsf6dxupojphbw.png"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://rayton.kite.space/#website",
+          "url": "https://rayton.kite.space",
+          "name": "RAYTON Development Limited",
+          "publisher": {
+            "@id": "https://rayton.kite.space/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <title>RAYTON Development Ltd | Construction & Estate Lagos</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://static.kite.ai/image/upload/e_trim/f_png,q_auto,w_32,h_32,c_fit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/wh6pmkgsf6dxupojphbw.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://static.kite.ai/image/upload/e_trim/f_png,q_auto,w_16,h_16,c_fit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/wh6pmkgsf6dxupojphbw.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://static.kite.ai/image/upload/e_trim/f_png,q_auto,w_180,h_180,c_fit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/wh6pmkgsf6dxupojphbw.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'rayton-navy': '#0D1B2A',
+              'rayton-blue': '#1A3A5C',
+              'rayton-gold': '#C8973A',
+              'rayton-gold-light': '#E8B05A',
+              'rayton-light': '#F7F7F5',
+              'rayton-gray': '#6B7280',
+              'rayton-dark': '#111827',
+            },
+            fontFamily: {
+              'barlow': ['Barlow Condensed', 'sans-serif'],
+              'inter': ['Inter', 'sans-serif'],
+              'montserrat': ['Montserrat', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+
+    <style>
+      * { box-sizing: border-box; }
+      body { font-family: 'Inter', sans-serif; background: #F7F7F5; color: #0D1B2A; }
+
+      /* Navbar */
+      #navbar {
+        background: transparent;
+        transition: background 0.35s ease, box-shadow 0.35s ease;
+      }
+      #navbar.scrolled {
+        background: #0D1B2A;
+        box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+      }
+      #nav-logo { transition: opacity 0.3s ease; }
+      #navbar[data-scroll-effect]:not(.scrolled) #nav-logo { opacity: 0; pointer-events: none; }
+      #navbar[data-scroll-effect].scrolled #nav-logo { opacity: 1; pointer-events: auto; }
+
+      /* Nav links */
+      .nav-link {
+        color: rgba(255,255,255,0.9);
+        font-size: 0.875rem;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 2px;
+        transition: color 0.2s;
+      }
+      .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: -2px; left: 0;
+        width: 0; height: 2px;
+        background: #C8973A;
+        transition: width 0.3s ease;
+      }
+      .nav-link:hover::after, .nav-link-active::after { width: 100%; }
+      .nav-link:hover, .nav-link-active { color: #C8973A; }
+
+      /* Hero */
+      .hero-section {
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+      .hero-overlay {
+        position: absolute; inset: 0;
+        background: linear-gradient(135deg, rgba(13,27,42,0.88) 0%, rgba(13,27,42,0.55) 60%, rgba(200,151,58,0.15) 100%);
+      }
+
+      /* Gold accent line */
+      .gold-line {
+        display: block;
+        width: 56px;
+        height: 3px;
+        background: #C8973A;
+        margin-bottom: 1.25rem;
+      }
+
+      /* Section label */
+      .section-label {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #C8973A;
+      }
+
+      /* Section heading */
+      .section-heading {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        line-height: 1.1;
+        color: #0D1B2A;
+      }
+
+      /* CTA Button - Primary (Gold) */
+      .btn-primary {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: #C8973A;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 0.875rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 0.875rem 2rem;
+        transition: background 0.2s, transform 0.2s;
+      }
+      .btn-primary:hover { background: #E8B05A; transform: translateY(-1px); }
+
+      /* CTA Button - Secondary (Outline) */
+      .btn-secondary {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: transparent;
+        color: #fff;
+        border: 1.5px solid rgba(255,255,255,0.6);
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 0.875rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 0.875rem 2rem;
+        transition: border-color 0.2s, color 0.2s, background 0.2s;
+      }
+      .btn-secondary:hover { border-color: #C8973A; color: #C8973A; background: rgba(200,151,58,0.08); }
+
+      /* Dark button */
+      .btn-dark {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: #0D1B2A;
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 0.875rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 0.875rem 2rem;
+        transition: background 0.2s;
+      }
+      .btn-dark:hover { background: #1A3A5C; }
+
+      /* Service card */
+      .service-card {
+        background: #fff;
+        border-bottom: 3px solid transparent;
+        transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        overflow: hidden;
+      }
+      .service-card:hover { border-bottom-color: #C8973A; transform: translateY(-4px); box-shadow: 0 12px 32px rgba(13,27,42,0.12); }
+
+      /* Project card */
+      .project-card { position: relative; overflow: hidden; }
+      .project-card img { transition: transform 0.5s ease; }
+      .project-card:hover img { transform: scale(1.06); }
+      .project-card .overlay {
+        position: absolute; inset: 0;
+        background: linear-gradient(to top, rgba(13,27,42,0.9) 0%, transparent 60%);
+        transition: background 0.3s;
+      }
+      .project-card:hover .overlay { background: linear-gradient(to top, rgba(13,27,42,0.95) 10%, rgba(13,27,42,0.3) 100%); }
+
+      /* Video card */
+      .video-card { position: relative; overflow: hidden; background: #0d1b2a; border-radius: 2px; }
+      .video-card video { display: block; width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+      .video-card .video-caption {
+        padding: 0.75rem 1rem;
+        background: #0d1b2a;
+        border-top: 1px solid rgba(200,151,58,0.2);
+      }
+      .video-card .video-play-icon {
+        position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+        width: 52px; height: 52px; border-radius: 50%;
+        background: rgba(200,151,58,0.85);
+        display: flex; align-items: center; justify-content: center;
+        pointer-events: none; transition: opacity 0.3s;
+      }
+      .video-card:hover .video-play-icon { opacity: 0; }
+      .video-card video:not([controls]) + .video-play-icon { opacity: 1; }
+
+      /* Stat counter */
+      .stat-number {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 800;
+        font-size: 3.5rem;
+        line-height: 1;
+        color: #C8973A;
+      }
+
+      /* Testimonial card */
+      .testimonial-card {
+        background: #fff;
+        border-left: 4px solid #C8973A;
+        transition: box-shadow 0.3s;
+      }
+      .testimonial-card:hover { box-shadow: 0 8px 24px rgba(13,27,42,0.1); }
+
+      /* Form input */
+      .form-input {
+        width: 100%;
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.2);
+        color: #fff;
+        padding: 0.875rem 1rem;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.9rem;
+        transition: border-color 0.2s;
+        outline: none;
+      }
+      .form-input::placeholder { color: rgba(255,255,255,0.4); }
+      .form-input:focus { border-color: #C8973A; }
+      .form-label { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-bottom: 0.4rem; display: block; }
+
+      /* Reveal animation */
+      .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.65s ease-out, transform 0.65s ease-out; }
+      .reveal.active { opacity: 1; transform: translateY(0); }
+      .reveal-left { opacity: 0; transform: translateX(-24px); transition: opacity 0.65s ease-out, transform 0.65s ease-out; }
+      .reveal-left.active { opacity: 1; transform: translateX(0); }
+      .reveal-right { opacity: 0; transform: translateX(24px); transition: opacity 0.65s ease-out, transform 0.65s ease-out; }
+      .reveal-right.active { opacity: 1; transform: translateX(0); }
+
+      /* Delay helpers */
+      .delay-100 { transition-delay: 0.1s; }
+      .delay-200 { transition-delay: 0.2s; }
+      .delay-300 { transition-delay: 0.3s; }
+      .delay-400 { transition-delay: 0.4s; }
+
+      /* Mobile menu */
+      #mobile-menu { background: #0D1B2A; }
+      .mobile-nav-link { font-family: 'Barlow Condensed', sans-serif; font-size: 2rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: #fff; transition: color 0.2s; }
+      .mobile-nav-link:hover, .mobile-nav-link.nav-link-active { color: #C8973A; }
+
+      /* Footer */
+      footer { background: #0D1B2A; color: rgba(255,255,255,0.7); }
+      footer a { transition: color 0.2s; }
+      footer a:hover { color: #C8973A; }
+
+      /* About page team member */
+      .team-card { background: #fff; overflow: hidden; transition: box-shadow 0.3s; }
+      .team-card:hover { box-shadow: 0 10px 30px rgba(13,27,42,0.12); }
+
+      /* Safety badge */
+      .safety-item { border-left: 3px solid #C8973A; padding-left: 1rem; }
+
+      /* Contact info */
+      .contact-info-item { display: flex; align-items: flex-start; gap: 1rem; }
+
+      /* Timeline */
+      .timeline-item { position: relative; padding-left: 2rem; }
+      .timeline-item::before { content: ''; position: absolute; left: 0; top: 8px; width: 10px; height: 10px; border-radius: 50%; background: #C8973A; }
+      .timeline-item::after { content: ''; position: absolute; left: 4px; top: 18px; width: 2px; height: calc(100% + 1rem); background: rgba(200,151,58,0.3); }
+      .timeline-item:last-child::after { display: none; }
+
+      /* Nav active */
+      [data-nav].nav-link-active { color: #C8973A; }
+
+      /* Scrollbar */
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #F7F7F5; }
+      ::-webkit-scrollbar-thumb { background: #C8973A; border-radius: 3px; }
+    </style>
+  </head>
+
+  <body class="bg-rayton-light">
+
+    <!-- NAVIGATION -->
+    <nav id="navbar" data-scroll-effect class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+      <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+        <!-- Logo -->
+        <a href="/" id="nav-logo" class="flex items-center" onclick="handleNav(event, '/')">
+          <img src="https://static.kite.ai/image/upload/w_200,c_scale/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/wh6pmkgsf6dxupojphbw.png"
+               alt="RAYTON Development Limited"
+               class="h-12 w-auto object-contain" />
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="/" onclick="handleNav(event,'/')" class="nav-link" data-nav>Home</a>
+          <a href="/about" onclick="handleNav(event,'/about')" class="nav-link" data-nav>About</a>
+          <a href="/services" onclick="handleNav(event,'/services')" class="nav-link" data-nav>Services</a>
+          <a href="/projects" onclick="handleNav(event,'/projects')" class="nav-link" data-nav>Projects</a>
+          <a href="/contact" onclick="handleNav(event,'/contact')" class="btn-primary ml-4" data-nav>Contact Us</a>
+        </div>
+
+        <!-- Mobile Menu Trigger -->
+        <button id="mobile-menu-btn" class="md:hidden p-2 text-white" aria-label="Open menu">
+          <i data-lucide="menu" class="w-7 h-7"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- MOBILE MENU OVERLAY -->
+    <div id="mobile-menu" class="fixed inset-0 z-[60] transform translate-x-full transition-transform duration-300 flex flex-col">
+      <div class="h-20 flex items-center justify-between px-6 border-b border-white/10">
+        <img src="https://static.kite.ai/image/upload/w_180,c_scale/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/wh6pmkgsf6dxupojphbw.png"
+             alt="RAYTON Development Limited" class="h-10 w-auto object-contain" />
+        <button id="close-mobile-menu" class="p-2 text-white">
+          <i data-lucide="x" class="w-7 h-7"></i>
+        </button>
+      </div>
+      <div class="flex-1 flex flex-col justify-center items-center gap-10 px-6">
+        <a href="/" onclick="handleNav(event,'/')" class="mobile-nav-link" data-nav>Home</a>
+        <a href="/about" onclick="handleNav(event,'/about')" class="mobile-nav-link" data-nav>About</a>
+        <a href="/services" onclick="handleNav(event,'/services')" class="mobile-nav-link" data-nav>Services</a>
+        <a href="/projects" onclick="handleNav(event,'/projects')" class="mobile-nav-link" data-nav>Projects</a>
+        <a href="/contact" onclick="handleNav(event,'/contact')" class="mobile-nav-link" data-nav>Contact</a>
+      </div>
+      <div class="px-6 pb-10 text-center">
+        <p class="text-white/40 text-sm">+234-8067602811</p>
+      </div>
+    </div>
+
+    <main id="app"></main>
+
+    <!-- FOOTER -->
+    <footer id="site-footer" class="hidden">
+      <div class="max-w-7xl mx-auto px-6 pt-16 pb-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+          <!-- Brand -->
+          <div class="lg:col-span-2">
+            <img src="https://static.kite.ai/image/upload/w_200,c_scale/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/wh6pmkgsf6dxupojphbw.png"
+                 alt="RAYTON Development Limited" class="h-12 w-auto object-contain mb-5" />
+            <p class="text-white/60 text-sm leading-relaxed max-w-sm">
+              RAYTON Development Limited is a premier construction company in Lagos, Nigeria — delivering estate development, civil engineering, and infrastructure projects with quality, innovation, and professionalism.
+            </p>
+            <div class="flex gap-4 mt-6">
+              <a href="https://www.linkedin.com/in/anthony-ugboke-717957111" target="_blank" rel="noopener"
+                 class="w-9 h-9 flex items-center justify-center border border-white/20 text-white/60 hover:border-rayton-gold hover:text-rayton-gold transition-colors">
+                <i data-lucide="linkedin" class="w-4 h-4"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h4 class="text-white font-semibold text-sm uppercase tracking-widest mb-5">Quick Links</h4>
+            <ul class="space-y-3">
+              <li><a href="/" onclick="handleNav(event,'/')" class="text-white/60 text-sm hover:text-rayton-gold">Home</a></li>
+              <li><a href="/about" onclick="handleNav(event,'/about')" class="text-white/60 text-sm hover:text-rayton-gold">About Us</a></li>
+              <li><a href="/services" onclick="handleNav(event,'/services')" class="text-white/60 text-sm hover:text-rayton-gold">Services</a></li>
+              <li><a href="/projects" onclick="handleNav(event,'/projects')" class="text-white/60 text-sm hover:text-rayton-gold">Projects</a></li>
+              <li><a href="/contact" onclick="handleNav(event,'/contact')" class="text-white/60 text-sm hover:text-rayton-gold">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h4 class="text-white font-semibold text-sm uppercase tracking-widest mb-5">Contact</h4>
+            <ul class="space-y-3">
+              <li class="flex items-start gap-2">
+                <i data-lucide="phone" class="w-4 h-4 text-rayton-gold mt-0.5 flex-shrink-0"></i>
+                <a href="tel:+2348067602811" class="text-white/60 text-sm hover:text-rayton-gold">+234-8067602811</a>
+              </li>
+              <li class="flex items-start gap-2">
+                <i data-lucide="mail" class="w-4 h-4 text-rayton-gold mt-0.5 flex-shrink-0"></i>
+                <a href="mailto:raytondevltd@gmail.com" class="text-white/60 text-sm hover:text-rayton-gold break-all">raytondevltd@gmail.com</a>
+              </li>
+              <li class="flex items-start gap-2">
+                <i data-lucide="map-pin" class="w-4 h-4 text-rayton-gold mt-0.5 flex-shrink-0"></i>
+                <span class="text-white/60 text-sm">Lagos, Nigeria</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p class="text-white/40 text-xs">&copy; <span id="footer-year"></span> RAYTON Development Limited. All rights reserved.</p>
+          <p class="text-white/40 text-xs">Quality. Innovation. Excellence.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- DATA -->
+    <script id="content" type="application/json">{
+    "company": "content/company.json",
+    "stats": "content/stats.json",
+    "services": "content/services.json",
+    "projects": "content/projects.json",
+    "projectVideos": "content/project-videos.json",
+    "testimonials": "content/testimonials.json",
+    "team": "content/team.json",
+    "experience": "content/experience.json",
+    "safety": "content/safety.json"
+}</script>
+
+    <script type="module">
+import { submitContactForm } from '@appsmithorg/template-frontend/utility';
+document.dispatchEvent(new CustomEvent('kite:core-ready', {
+  detail: { submitContactForm }
+}));
+</script>
+
+<script id="main_script">
+// Receive async-loaded core utilities via CustomEvent (non-blocking)
+let submitContactForm = null;
+document.addEventListener('kite:core-ready', (e) => {
+  submitContactForm = e.detail.submitContactForm;
+});
+const data = JSON.parse(document.getElementById('content').textContent);
+      const app = document.getElementById('app');
+
+      function optimizeImg(url, width) {
+        if (!url || !url.includes('/upload/')) return url || '';
+        const parts = url.split('/upload/');
+        if (parts[1].match(/^[a-z]_[^/]+/)) {
+          const sub = parts[1].split('/');
+          sub[0] += ',w_' + width + ',c_limit';
+          return parts[0] + '/upload/' + sub.join('/');
+        }
+        return parts[0] + '/upload/w_' + width + ',c_limit/' + parts[1];
+      }
+
+      function stars(n) {
+        let s = '';
+        for (let i = 0; i < n; i++) s += '<span style="color:#C8973A">&#9733;</span>';
+        return s;
+      }
+
+      // ─── ROUTER ──────────────────────────────────────────────────
+      const routes = {
+        '/': {
+          title: 'RAYTON Development Ltd | Construction & Estate Lagos',
+          description: 'RAYTON Development Limited — Premier construction company in Lagos delivering estate development, civil engineering, and infrastructure projects.',
+          render: renderHome
+        },
+        '/about': {
+          title: 'About RAYTON Development Limited | Our Story & Team',
+          description: 'Learn about RAYTON Development Limited — our history, values, team expertise, and commitment to quality construction in Lagos, Nigeria.',
+          render: renderAbout
+        },
+        '/services': {
+          title: 'Construction Services | RAYTON Development Limited',
+          description: 'RAYTON offers estate development, architectural design, construction, civil engineering, and facility maintenance services across Lagos and Nigeria.',
+          render: renderServices
+        },
+        '/projects': {
+          title: 'Our Projects | RAYTON Development Limited Portfolio',
+          description: 'Explore RAYTON\'s portfolio of completed construction projects — estates, roads, bridges, commercial buildings, and infrastructure across Lagos.',
+          render: renderProjects
+        },
+        '/contact': {
+          title: 'Contact RAYTON Development Limited | Get a Quote',
+          description: 'Contact RAYTON Development Limited for construction services, project enquiries, or to request a quote. Lagos, Nigeria.',
+          render: renderContact
+        }
+      };
+
+      const siteName = data.company.name;
+
+      function upsertHeadMeta(selector, attributes, content) {
+        if (content === undefined || content === null || content === '') return;
+        let metaTag = document.head.querySelector(selector);
+        if (!metaTag) {
+          metaTag = document.createElement('meta');
+          Object.entries(attributes).forEach(([key, value]) => metaTag.setAttribute(key, value));
+          document.head.appendChild(metaTag);
+        }
+        metaTag.setAttribute('content', content);
+      }
+
+      function applyRouteMetadataToHead(route) {
+        const pageTitle = route.title || siteName;
+        document.title = pageTitle;
+        upsertHeadMeta('meta[name="description"]', { name: 'description' }, route.description);
+        upsertHeadMeta('meta[property="og:title"]', { property: 'og:title' }, pageTitle);
+        upsertHeadMeta('meta[property="og:description"]', { property: 'og:description' }, route.description);
+        upsertHeadMeta('meta[name="twitter:title"]', { name: 'twitter:title' }, pageTitle);
+        upsertHeadMeta('meta[name="twitter:description"]', { name: 'twitter:description' }, route.description);
+        upsertHeadMeta('meta[property="og:url"]', { property: 'og:url' }, location.href);
+        // Upsert canonical link to match current route
+        let canonicalLink = document.head.querySelector('link[rel="canonical"]');
+        if (!canonicalLink) {
+          canonicalLink = document.createElement('link');
+          canonicalLink.setAttribute('rel', 'canonical');
+          document.head.appendChild(canonicalLink);
+        }
+        canonicalLink.setAttribute('href', 'https://rayton.kite.space' + location.pathname);
+      }
+
+      function handleNav(e, path) {
+        e.preventDefault();
+        if (path === location.pathname) return;
+        history.pushState({}, '', path);
+        render(path);
+        closeMobileMenu();
+      }
+
+      function closeMobileMenu() {
+        document.getElementById('mobile-menu').classList.add('translate-x-full');
+      }
+
+      function render(path) {
+        const route = routes[path] || routes['/'];
+        applyRouteMetadataToHead(route);
+        document.querySelectorAll('[data-nav]').forEach(link => {
+          const isActive = link.getAttribute('href') === path;
+          link.classList.toggle('nav-link-active', isActive);
+          link.setAttribute('aria-current', isActive ? 'page' : 'false');
+        });
+        scrollTo({ top: 0, behavior: 'instant' });
+        route.render();
+        lucide?.createIcons();
+        announcePageChange(route.title);
+        initScrollReveal();
+        // Show/hide footer
+        const footer = document.getElementById('site-footer');
+        if (footer) footer.classList.remove('hidden');
+        // Update footer year
+        const yearEl = document.getElementById('footer-year');
+        if (yearEl) yearEl.textContent = new Date().getFullYear();
+        lucide?.createIcons();
+      }
+
+      function announcePageChange(title) {
+        const announcer = document.getElementById('route-announcer') || createAnnouncer();
+        announcer.textContent = 'Navigated to ' + title;
+      }
+      function createAnnouncer() {
+        const el = document.createElement('div');
+        el.id = 'route-announcer';
+        el.setAttribute('aria-live', 'polite');
+        el.setAttribute('aria-atomic', 'true');
+        el.className = 'sr-only';
+        document.body.appendChild(el);
+        return el;
+      }
+
+      addEventListener('popstate', () => render(location.pathname));
+      window.handleNav = handleNav;
+
+      // Navbar scroll
+      const nav = document.getElementById('navbar');
+      window.addEventListener('scroll', () => {
+        nav.classList.toggle('scrolled', window.scrollY > 60);
+      });
+
+      // Scroll reveal
+      function initScrollReveal() {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) entry.target.classList.add('active');
+          });
+        }, { threshold: 0.08 });
+        document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => observer.observe(el));
+      }
+
+      // Mobile Menu
+      document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+        document.getElementById('mobile-menu').classList.remove('translate-x-full');
+      });
+      document.getElementById('close-mobile-menu').addEventListener('click', closeMobileMenu);
+
+      // ─── PAGE RENDERERS ──────────────────────────────────────────
+
+      function renderHome() {
+        const heroImg = 'https://static.kite.ai/image/upload/w_1600,c_limit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-hero-bg.png';
+        const ctaBg = 'https://static.kite.ai/image/upload/w_1600,c_limit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-cta-bg.png';
+        const aboutImg = 'https://static.kite.ai/image/upload/w_900,c_limit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-about-team.png';
+
+        const statsHtml = data.stats.map((s, i) => '<div class="reveal delay-' + (i * 100 + 100) + ' text-center">' +
+          '<div class="stat-number">' + s.value + '</div>' +
+          '<div class="text-white/60 text-sm uppercase tracking-widest mt-1 font-inter">' + s.label + '</div>' +
+          '</div>').join('');
+
+        const featuredServices = data.services.slice(0, 3);
+        const servicesHtml = featuredServices.map((s, i) => '<div class="service-card reveal delay-' + (i * 100 + 100) + '">' +
+          '<img src="' + s.image.src + '" alt="' + s.image.alt + '" class="w-full h-48 object-cover" loading="lazy" />' +
+          '<div class="p-6">' +
+          '<div class="flex items-center gap-3 mb-3">' +
+          '<div class="w-10 h-10 bg-rayton-gold/10 flex items-center justify-center flex-shrink-0">' +
+          '<i data-lucide="' + s.icon + '" class="w-5 h-5 text-rayton-gold"></i></div>' +
+          '<h3 class="section-heading text-xl">' + s.title + '</h3>' +
+          '</div>' +
+          '<p class="text-rayton-gray text-sm leading-relaxed">' + s.desc + '</p>' +
+          '<a href="/services" onclick="handleNav(event,\'/services\')" class="inline-flex items-center gap-1 text-rayton-gold text-sm font-semibold mt-4 hover:gap-2 transition-all">Learn More <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '</div></div>').join('');
+
+        const featuredProjects = data.projects.slice(0, 3);
+        const projectsHtml = featuredProjects.map((p, i) => '<div class="project-card reveal delay-' + (i * 100 + 100) + ' aspect-[4/3] cursor-pointer" onclick="handleNav(event,\'/projects\')">' +
+          '<img src="' + p.image.src + '" alt="' + p.image.alt + '" class="w-full h-full object-cover" loading="lazy" />' +
+          '<div class="overlay"></div>' +
+          '<div class="absolute bottom-0 left-0 right-0 p-5">' +
+          '<span class="section-label text-xs">' + p.category + '</span>' +
+          '<h3 class="font-barlow font-700 text-white text-xl mt-1">' + p.title + '</h3>' +
+          '<p class="text-white/60 text-xs flex items-center gap-1 mt-1"><i data-lucide="map-pin" class="w-3 h-3"></i>' + p.location + '</p>' +
+          (p.desc ? '<p class="text-white/70 text-xs mt-2 leading-relaxed">' + p.desc + '</p>' : '') +
+          '</div></div>').join('');
+
+        app.innerHTML = '<div>' +
+
+          // HERO
+          '<section class="hero-section" style="background-image:url(\'' + heroImg + '\');background-size:cover;background-position:center top;">' +
+          '<div class="hero-overlay"></div>' +
+          '<div class="relative z-10 max-w-7xl mx-auto px-6 py-32 md:py-0 w-full">' +
+          '<div class="max-w-2xl">' +
+          '<span class="section-label">Premier Construction Company — Lagos, Nigeria</span>' +
+          '<h1 class="font-barlow font-800 text-white mt-4 mb-6" style="font-size:clamp(2.8rem,6vw,5rem);line-height:1.05;">' +
+          'Building the Future of Nigeria</h1>' +
+          '<p class="text-white/75 text-lg leading-relaxed mb-8 max-w-lg">' +
+          'RAYTON Development Limited delivers world-class estate development, civil engineering, and construction — built on quality, transparency, and decades of expertise.</p>' +
+          '<div class="flex flex-wrap gap-4">' +
+          '<a href="/projects" onclick="handleNav(event,\'/projects\')" class="btn-primary">View Our Projects <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '<a href="/contact" onclick="handleNav(event,\'/contact\')" class="btn-secondary">Get a Quote</a>' +
+          '</div></div></div>' +
+          // Scroll indicator
+          '<div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10">' +
+          '<span class="text-white/40 text-xs uppercase tracking-widest">Scroll</span>' +
+          '<div style="width:1px;height:40px;background:linear-gradient(to bottom,rgba(200,151,58,0.8),transparent)"></div>' +
+          '</div></section>' +
+
+          // STATS BAND
+          '<section class="bg-rayton-navy py-12">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="grid grid-cols-2 md:grid-cols-4 gap-8">' + statsHtml + '</div>' +
+          '</div></section>' +
+
+          // ABOUT SNIPPET
+          '<section class="py-20 bg-rayton-light">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="grid md:grid-cols-2 gap-12 items-center">' +
+          '<div class="reveal-left">' +
+          '<img src="' + aboutImg + '" alt="RAYTON team" class="w-full h-auto object-cover shadow-2xl" loading="lazy" />' +
+          '</div>' +
+          '<div class="reveal-right">' +
+          '<span class="section-label">Who We Are</span>' +
+          '<span class="gold-line mt-3"></span>' +
+          '<h2 class="section-heading text-4xl md:text-5xl mb-6">Committed to Excellence in Every Build</h2>' +
+          '<p class="text-rayton-gray leading-relaxed mb-4">RAYTON Development Limited is led by Anthony Ugboke — a construction professional with 13+ years of active site experience spanning luxury homes in Ikoyi, institutional builds, commercial fit-outs, and federal government projects across Nigeria.</p>' +
+          '<p class="text-rayton-gray leading-relaxed mb-8">With engagements at DAF Homes Ltd (Ikoyi), Tons Development Ltd, Quest Resources Construction Ltd, and the Federal Capital Development Authority, RAYTON brings a depth of proven, verifiable expertise to every project it undertakes.</p>' +
+          '<div class="grid grid-cols-2 gap-4 mb-8">' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-5 h-5 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark font-medium">Quality Assurance</span></div>' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-5 h-5 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark font-medium">Safety First</span></div>' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-5 h-5 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark font-medium">On-Time Delivery</span></div>' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-5 h-5 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark font-medium">Transparent Process</span></div>' +
+          '</div>' +
+          '<a href="/about" onclick="handleNav(event,\'/about\')" class="btn-dark">Learn About Us <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '</div></div></div></section>' +
+
+          // SERVICES
+          '<section class="py-20 bg-white">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="text-center mb-14 reveal">' +
+          '<span class="section-label">What We Do</span>' +
+          '<span class="gold-line mx-auto mt-3"></span>' +
+          '<h2 class="section-heading text-4xl md:text-5xl">Our Core Services</h2>' +
+          '</div>' +
+          '<div class="grid md:grid-cols-3 gap-6">' + servicesHtml + '</div>' +
+          '<div class="text-center mt-10 reveal">' +
+          '<a href="/services" onclick="handleNav(event,\'/services\')" class="btn-primary">All Services <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '</div></div></section>' +
+
+          // PROJECTS
+          '<section class="py-20 bg-rayton-navy">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-14">' +
+          '<div class="reveal">' +
+          '<span class="section-label">Our Work</span>' +
+          '<span class="gold-line mt-3"></span>' +
+          '<h2 class="section-heading text-4xl md:text-5xl text-white">Featured Projects</h2>' +
+          '</div>' +
+          '<a href="/projects" onclick="handleNav(event,\'/projects\')" class="btn-secondary reveal self-start md:self-end">View All Projects <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '</div>' +
+          '<div class="grid md:grid-cols-3 gap-4">' + projectsHtml + '</div>' +
+          '</div></section>' +
+
+          // CTA BANNER
+          '<section class="relative py-24 overflow-hidden" style="background-image:url(\'' + ctaBg + '\');background-size:cover;background-position:center;">' +
+          '<div style="position:absolute;inset:0;background:rgba(13,27,42,0.88)"></div>' +
+          '<div class="relative z-10 max-w-7xl mx-auto px-6 text-center">' +
+          '<div class="reveal">' +
+          '<span class="section-label">Ready to Build?</span>' +
+          '<h2 class="font-barlow font-800 text-white mt-4 mb-4" style="font-size:clamp(2rem,4vw,3.5rem);line-height:1.1;">Start Your Project with RAYTON Today</h2>' +
+          '<p class="text-white/70 max-w-xl mx-auto mb-8">From estate developments to civil infrastructure, we deliver projects that stand the test of time. Contact us to discuss your requirements.</p>' +
+          '<div class="flex flex-wrap justify-center gap-4">' +
+          '<a href="/contact" onclick="handleNav(event,\'/contact\')" class="btn-primary">Get a Free Quote <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '<a href="tel:+2348067602811" class="btn-secondary"><i data-lucide="phone" class="w-4 h-4"></i> Call Us Now</a>' +
+          '</div></div></div></section>' +
+
+          '</div>';
+      }
+
+      function renderAbout() {
+        const safetyHtml = data.safety.map((s, i) => '<div class="safety-item reveal delay-' + (i * 100 + 100) + ' py-4">' +
+          '<h4 class="font-semibold text-white mb-1">' + s.title + '</h4>' +
+          '<p class="text-white/60 text-sm">' + s.desc + '</p>' +
+          '</div>').join('');
+
+        const aboutImg = 'https://static.kite.ai/image/upload/w_900,c_limit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-about-team.png';
+        const ctaBg = 'https://static.kite.ai/image/upload/w_1600,c_limit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-cta-bg.png';
+
+        // Experience timeline HTML
+        const expHtml = data.experience.map((e, i) => '<div class="timeline-item pb-8 reveal delay-' + ((i % 4) * 100 + 100) + '">' +
+          '<div class="flex flex-wrap items-start justify-between gap-2 mb-1">' +
+          '<div>' +
+          '<span class="font-barlow font-700 text-rayton-dark text-lg leading-tight">' + e.role + '</span>' +
+          '<span class="text-rayton-gold font-semibold text-sm"> &mdash; ' + e.company + '</span>' +
+          (e.type ? '<span class="ml-2 text-xs bg-rayton-gold/10 text-rayton-gold px-2 py-0.5 rounded-full">' + e.type + '</span>' : '') +
+          '</div>' +
+          '<span class="text-rayton-gray text-xs whitespace-nowrap">' + e.period + '</span>' +
+          '</div>' +
+          '<p class="text-rayton-gray text-xs mb-2 flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i>' + e.location + '</p>' +
+          '<ul class="space-y-1">' +
+          e.highlights.map(h => '<li class="text-rayton-gray text-sm flex items-start gap-2"><span class="text-rayton-gold mt-1 flex-shrink-0">&#8250;</span>' + h + '</li>').join('') +
+          '</ul></div>').join('');
+
+        app.innerHTML = '<div>' +
+
+          // PAGE HEADER
+          '<div class="relative bg-rayton-navy pt-40 pb-20" style="background-image:url(\'' + aboutImg + '\');background-size:cover;background-position:center;">' +
+          '<div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(13,27,42,0.95),rgba(13,27,42,0.7))"></div>' +
+          '<div class="relative z-10 max-w-7xl mx-auto px-6">' +
+          '<span class="section-label">About RAYTON</span>' +
+          '<h1 class="font-barlow font-800 text-white mt-3" style="font-size:clamp(2.5rem,5vw,4rem);line-height:1.1;">Our Story &amp; Background</h1>' +
+          '</div></div>' +
+
+          // MISSION / STORY
+          '<section class="py-20 bg-rayton-light">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="grid md:grid-cols-2 gap-12 items-center">' +
+          '<div class="reveal-left">' +
+          '<span class="section-label">Who We Are</span>' +
+          '<span class="gold-line mt-3"></span>' +
+          '<h2 class="section-heading text-4xl mb-6">Built on Quality, Driven by Experience</h2>' +
+          '<p class="text-rayton-gray leading-relaxed mb-4">Experienced construction professional specializing in building construction, site supervision, and project management. Skilled in project planning, scheduling, coordination, quality assurance, cost estimation, material management, and renovation works.</p>' +
+          '<p class="text-rayton-gray leading-relaxed mb-4">Proven ability to lead teams, manage subcontractors and artisans, ensure compliance with industry standards, and deliver residential, commercial, and institutional projects efficiently.</p>' +
+          '<p class="text-rayton-gray leading-relaxed mb-6">Committed to excellence, timely project delivery, and maintaining high workmanship standards through effective reporting and documentation.</p>' +
+          '<div class="grid grid-cols-2 gap-3">' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark">Building Construction</span></div>' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark">Site Supervision</span></div>' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark">Project Management</span></div>' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark">Cost Estimation</span></div>' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark">Quality Assurance</span></div>' +
+          '<div class="flex items-start gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-rayton-gold flex-shrink-0 mt-0.5"></i><span class="text-sm text-rayton-dark">Subcontractor Management</span></div>' +
+          '</div>' +
+          '</div>' +
+          '<div class="reveal-right">' +
+          '<img src="' + aboutImg + '" alt="RAYTON construction team" class="w-full h-auto shadow-2xl" loading="lazy" />' +
+          '</div></div></div></section>' +
+
+          // FOUNDER PROFILE
+          '<section class="py-20 bg-white">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="text-center mb-14 reveal">' +
+          '<span class="section-label">Leadership</span>' +
+          '<span class="gold-line mx-auto mt-3"></span>' +
+          '<h2 class="section-heading text-4xl md:text-5xl">The Person Behind RAYTON</h2>' +
+          '</div>' +
+          '<div class="max-w-3xl mx-auto">' +
+          '<div class="flex flex-col sm:flex-row gap-8 items-start reveal">' +
+          '<div class="flex-shrink-0">' +
+          '<div class="w-24 h-24 bg-rayton-gold/10 flex items-center justify-center border-2 border-rayton-gold/30">' +
+          '<i data-lucide="user" class="w-12 h-12 text-rayton-gold"></i></div>' +
+          '</div>' +
+          '<div>' +
+          '<h3 class="font-barlow font-800 text-rayton-dark text-3xl mb-1">Anthony Ugboke</h3>' +
+          '<p class="text-rayton-gold font-semibold text-sm uppercase tracking-wider mb-4">Founder &amp; Lead Builder — Rayton Development Ltd</p>' +
+          '<p class="text-rayton-gray leading-relaxed mb-3">Anthony Ugboke is a seasoned construction professional with over 13 years of active field experience across residential, commercial, and institutional building projects throughout Nigeria. He founded Rayton Development Ltd and simultaneously serves as a builder at DAF Homes Ltd in Ikoyi, Lagos.</p>' +
+          '<p class="text-rayton-gray leading-relaxed mb-3">His career spans work with major organisations including the Federal Capital Development Authority (FCDA), Quest Resources Construction Ltd, Tons Development Ltd, and The Federal Polytechnic Ado-Ekiti — giving him a uniquely broad foundation in both private luxury residential builds and large-scale institutional construction.</p>' +
+          '<p class="text-rayton-gray leading-relaxed">He brings hands-on expertise in site engineering, project scheduling, subcontractor coordination, QA/QC, cost estimation, and safety compliance — ensuring every RAYTON project meets the highest standards of workmanship and is delivered on time.</p>' +
+          '</div></div></div></div></section>' +
+
+          // EXPERIENCE TIMELINE
+          '<section class="py-20 bg-rayton-light">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="text-center mb-14 reveal">' +
+          '<span class="section-label">Track Record</span>' +
+          '<span class="gold-line mx-auto mt-3"></span>' +
+          '<h2 class="section-heading text-4xl md:text-5xl">Career Experience</h2>' +
+          '<p class="text-rayton-gray mt-4 max-w-xl mx-auto text-sm">13+ years of continuous, verifiable construction experience across Nigeria — from Ikoyi luxury homes to national institutional projects.</p>' +
+          '</div>' +
+          '<div class="max-w-3xl mx-auto">' + expHtml + '</div>' +
+          '</div></section>' +
+
+          // VALUES
+          '<section class="py-20 bg-white">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="text-center mb-14 reveal">' +
+          '<span class="section-label">Our Values</span>' +
+          '<span class="gold-line mx-auto mt-3"></span>' +
+          '<h2 class="section-heading text-4xl md:text-5xl">The Principles We Build On</h2>' +
+          '</div>' +
+          '<div class="grid md:grid-cols-4 gap-6">' +
+          ['Quality', 'Integrity', 'Innovation', 'Safety'].map((v, i) => {
+            const icons = ['award', 'shield-check', 'lightbulb', 'hard-hat'];
+            const descs = [
+              'High workmanship standards on every build — from foundations to finishing — backed by QA processes refined over 13+ years.',
+              'Transparent reporting, honest cost estimation, and clear communication at every stage of the project.',
+              'Modern construction methods, efficient scheduling, and practical problem-solving drawn from diverse project experience.',
+              'Strict HSE compliance and safety protocols on every site — protecting workers, clients, and the public.'
+            ];
+            return '<div class="text-center p-6 reveal delay-' + (i * 100 + 100) + '">' +
+              '<div class="w-14 h-14 bg-rayton-gold/10 flex items-center justify-center mx-auto mb-4">' +
+              '<i data-lucide="' + icons[i] + '" class="w-7 h-7 text-rayton-gold"></i></div>' +
+              '<h3 class="font-barlow font-700 text-rayton-dark text-xl mb-2">' + v + '</h3>' +
+              '<p class="text-rayton-gray text-sm leading-relaxed">' + descs[i] + '</p></div>';
+          }).join('') +
+          '</div></div></section>' +
+
+          // CREDIBILITY / SAFETY
+          '<section class="py-20 bg-rayton-navy">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="grid md:grid-cols-2 gap-12 items-start">' +
+          '<div class="reveal-left">' +
+          '<span class="section-label" style="color:#C8973A">Why Trust RAYTON</span>' +
+          '<span class="gold-line mt-3"></span>' +
+          '<h2 class="section-heading text-4xl text-white mb-6">Real Experience. Real Results.</h2>' +
+          '<p class="text-white/70 leading-relaxed mb-4">RAYTON\'s credibility is built on a verifiable career spanning over 13 years — from federal government prototype buildings to Ikoyi luxury homes, Union Bank branch fit-outs, university hostels, and industrial facilities.</p>' +
+          '<p class="text-white/70 leading-relaxed mb-8">Every project has been delivered with compliance to specifications, strict safety standards, and transparent documentation — giving clients total confidence from groundbreaking to handover.</p>' +
+          '<a href="/contact" onclick="handleNav(event,\'/contact\')" class="btn-primary">Start Your Project <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '</div>' +
+          '<div class="reveal-right">' +
+          '<div class="space-y-1">' + safetyHtml + '</div>' +
+          '</div></div></div></section>' +
+
+          // CTA
+          '<section class="relative py-20 overflow-hidden" style="background-image:url(\'' + ctaBg + '\');background-size:cover;background-position:center;">' +
+          '<div style="position:absolute;inset:0;background:rgba(13,27,42,0.85)"></div>' +
+          '<div class="relative z-10 max-w-7xl mx-auto px-6 text-center reveal">' +
+          '<h2 class="font-barlow font-800 text-white mb-4" style="font-size:clamp(2rem,4vw,3rem);">Ready to Work With Us?</h2>' +
+          '<p class="text-white/70 max-w-lg mx-auto mb-8">Contact Anthony and the RAYTON team today to discuss your construction project and get a detailed quote.</p>' +
+          '<a href="/contact" onclick="handleNav(event,\'/contact\')" class="btn-primary">Contact Us Today <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '</div></section>' +
+
+          '</div>';
+      }
+
+      function renderServices() {
+        const servicesHtml = data.services.map((s, i) => {
+          const isEven = i % 2 === 0;
+          return '<section class="py-16 ' + (isEven ? 'bg-white' : 'bg-rayton-light') + '">' +
+            '<div class="max-w-7xl mx-auto px-6">' +
+            '<div class="grid md:grid-cols-2 gap-12 items-center ' + (isEven ? '' : 'md:[&>*:first-child]:order-2') + '">' +
+            '<div class="' + (isEven ? 'reveal-left' : 'reveal-right') + '">' +
+            '<img src="' + s.image.src + '" alt="' + s.image.alt + '" class="w-full h-64 md:h-80 object-cover shadow-xl" loading="lazy" />' +
+            '</div>' +
+            '<div class="' + (isEven ? 'reveal-right' : 'reveal-left') + '">' +
+            '<div class="w-12 h-12 bg-rayton-gold/10 flex items-center justify-center mb-4">' +
+            '<i data-lucide="' + s.icon + '" class="w-6 h-6 text-rayton-gold"></i></div>' +
+            '<span class="section-label">' + s.category + '</span>' +
+            '<h2 class="section-heading text-3xl md:text-4xl mt-2 mb-4">' + s.title + '</h2>' +
+            '<p class="text-rayton-gray leading-relaxed mb-6">' + s.desc + '</p>' +
+            '<a href="/contact" onclick="handleNav(event,\'/contact\')" class="btn-dark">Get a Quote <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+            '</div></div></div></section>';
+        }).join('');
+
+        app.innerHTML = '<div>' +
+
+          // PAGE HEADER
+          '<div class="relative bg-rayton-navy pt-40 pb-20">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<span class="section-label">What We Offer</span>' +
+          '<h1 class="font-barlow font-800 text-white mt-3" style="font-size:clamp(2.5rem,5vw,4rem);line-height:1.1;">Our Services</h1>' +
+          '<p class="text-white/70 mt-4 max-w-xl">From estate development to civil infrastructure — comprehensive construction services delivered with expertise and professionalism.</p>' +
+          '</div></div>' +
+
+          servicesHtml +
+
+          // CTA
+          '<section class="py-20 bg-rayton-navy">' +
+          '<div class="max-w-7xl mx-auto px-6 text-center reveal">' +
+          '<span class="section-label">Get Started</span>' +
+          '<h2 class="font-barlow font-800 text-white mt-3 mb-4" style="font-size:clamp(2rem,4vw,3rem);">Have a Project in Mind?</h2>' +
+          '<p class="text-white/70 max-w-lg mx-auto mb-8">Our team is ready to assess your requirements and provide a tailored construction solution.</p>' +
+          '<div class="flex flex-wrap justify-center gap-4">' +
+          '<a href="/contact" onclick="handleNav(event,\'/contact\')" class="btn-primary">Request a Quote <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '<a href="tel:+2348067602811" class="btn-secondary"><i data-lucide="phone" class="w-4 h-4"></i> +234-8067602811</a>' +
+          '</div></div></section>' +
+
+          '</div>';
+      }
+
+      function renderProjects() {
+        const allProjectsHtml = data.projects.map((p, i) => '<div class="project-card reveal delay-' + ((i % 3) * 100 + 100) + ' aspect-[4/3]">' +
+          '<img src="' + p.image.src + '" alt="' + p.image.alt + '" class="w-full h-full object-cover" loading="lazy" />' +
+          '<div class="overlay"></div>' +
+          '<div class="absolute bottom-0 left-0 right-0 p-5">' +
+          '<span class="section-label text-xs">' + p.category + '</span>' +
+          '<h3 class="font-barlow font-700 text-white text-xl mt-1">' + p.title + '</h3>' +
+          '<p class="text-white/60 text-xs flex items-center gap-1 mt-1"><i data-lucide="map-pin" class="w-3 h-3"></i>' + p.location + '</p>' +
+          (p.desc ? '<p class="text-white/0 group-hover:text-white/70 text-xs mt-2 leading-relaxed line-clamp-2" style="transition:color 0.3s">' + p.desc + '</p>' : '') +
+          '</div></div>').join('');
+
+        const videosHtml = (data.projectVideos || []).map((v, i) => '<div class="video-card reveal delay-' + ((i % 3) * 100 + 100) + '">' +
+          '<video src="' + v.src + '" controls preload="metadata" playsinline class="w-full" style="aspect-ratio:16/9;object-fit:cover;">' +
+          'Your browser does not support video playback.' +
+          '<\/video>' +
+          '<div class="video-caption">' +
+          '<p class="text-white/80 text-sm font-medium leading-snug">' + v.caption + '</p>' +
+          '</div>' +
+          '</div>').join('');
+
+        const ctaBg = 'https://static.kite.ai/image/upload/w_1600,c_limit/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-cta-bg.png';
+
+        app.innerHTML = '<div>' +
+
+          // PAGE HEADER
+          '<div class="relative bg-rayton-navy pt-40 pb-20">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<span class="section-label">Portfolio</span>' +
+          '<h1 class="font-barlow font-800 text-white mt-3" style="font-size:clamp(2.5rem,5vw,4rem);line-height:1.1;">Our Projects</h1>' +
+          '<p class="text-white/70 mt-4 max-w-xl">Luxury home construction at Olori Mojisola Estate, Patrick Harbour, Banana Road, Ikoyi, Lagos — a showcase of RAYTON\'s craftsmanship and high-specification building standards.</p>' +
+          '</div></div>' +
+
+          // STATS
+          '<section class="py-12 bg-rayton-gold">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">' +
+          data.stats.map(s => '<div><div class="font-barlow font-800 text-white text-4xl">' + s.value + '</div><div class="text-white/80 text-sm uppercase tracking-wider">' + s.label + '</div></div>').join('') +
+          '</div></div></section>' +
+
+          // PHOTO GRID
+          '<section class="py-20 bg-rayton-light">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="text-center mb-14 reveal">' +
+          '<span class="section-label">Ikoyi, Lagos</span>' +
+          '<span class="gold-line mx-auto mt-3"></span>' +
+          '<h2 class="section-heading text-4xl md:text-5xl">Project at Olori Mojisola Estate</h2>' +
+          '<p class="text-rayton-gray mt-4 max-w-2xl mx-auto">Patrick Harbour Estate, along Banana Road, Ikoyi, Lagos State — a luxury residential construction project delivered by RAYTON Development Limited.</p>' +
+          '</div>' +
+          '<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">' + allProjectsHtml + '</div>' +
+          '</div></section>' +
+
+          // VIDEO GALLERY
+          '<section class="py-20 bg-rayton-navy">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="text-center mb-14 reveal">' +
+          '<span class="section-label">Site Footage</span>' +
+          '<span class="gold-line mx-auto mt-3"></span>' +
+          '<h2 class="section-heading text-4xl md:text-5xl text-white">Project Videos</h2>' +
+          '<p class="text-white/60 mt-4 max-w-2xl mx-auto">On-site video footage from the construction of the Olori Mojisola Estate project, Ikoyi, Lagos.</p>' +
+          '</div>' +
+          '<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">' + videosHtml + '</div>' +
+          '</div></section>' +
+
+          // CTA
+          '<section class="relative py-20 overflow-hidden" style="background-image:url(\'' + ctaBg + '\');background-size:cover;background-position:center;">' +
+          '<div style="position:absolute;inset:0;background:rgba(13,27,42,0.88)"></div>' +
+          '<div class="relative z-10 max-w-7xl mx-auto px-6 text-center reveal">' +
+          '<h2 class="font-barlow font-800 text-white mb-4" style="font-size:clamp(2rem,4vw,3rem);">Your Project Could Be Next</h2>' +
+          '<p class="text-white/70 max-w-lg mx-auto mb-8">Contact RAYTON today to discuss your construction requirements and receive a detailed project proposal.</p>' +
+          '<a href="/contact" onclick="handleNav(event,\'/contact\')" class="btn-primary">Start a Project <i data-lucide="arrow-right" class="w-4 h-4"></i></a>' +
+          '</div></section>' +
+
+          '</div>';
+      }
+
+      function renderContact() {
+        app.innerHTML = '<div>' +
+
+          // PAGE HEADER
+          '<div class="bg-rayton-navy pt-40 pb-20">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<span class="section-label">Reach Us</span>' +
+          '<h1 class="font-barlow font-800 text-white mt-3" style="font-size:clamp(2.5rem,5vw,4rem);line-height:1.1;">Contact Us</h1>' +
+          '<p class="text-white/70 mt-4 max-w-xl">Get in touch with RAYTON Development Limited for project enquiries, quotes, or general information.</p>' +
+          '</div></div>' +
+
+          // CONTACT SECTION
+          '<section class="py-20 bg-rayton-navy">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="grid md:grid-cols-2 gap-12">' +
+
+          // INFO SIDE
+          '<div class="reveal-left">' +
+          '<span class="section-label">Get in Touch</span>' +
+          '<span class="gold-line mt-3"></span>' +
+          '<h2 class="section-heading text-3xl text-white mb-6">Let\'s Discuss Your Project</h2>' +
+          '<p class="text-white/70 leading-relaxed mb-8">Whether you\'re a property developer, private client, or government agency — RAYTON\'s team is ready to provide expert guidance and a tailored construction proposal.</p>' +
+
+          '<div class="space-y-6 mb-8">' +
+          '<div class="contact-info-item">' +
+          '<div class="w-10 h-10 bg-rayton-gold/20 flex items-center justify-center flex-shrink-0">' +
+          '<i data-lucide="phone" class="w-5 h-5 text-rayton-gold"></i></div>' +
+          '<div><p class="text-white/50 text-xs uppercase tracking-wider mb-0.5">Phone</p>' +
+          '<a href="tel:+2348067602811" class="text-white font-semibold hover:text-rayton-gold transition-colors">+234-8067602811</a></div>' +
+          '</div>' +
+          '<div class="contact-info-item">' +
+          '<div class="w-10 h-10 bg-rayton-gold/20 flex items-center justify-center flex-shrink-0">' +
+          '<i data-lucide="mail" class="w-5 h-5 text-rayton-gold"></i></div>' +
+          '<div><p class="text-white/50 text-xs uppercase tracking-wider mb-0.5">Email</p>' +
+          '<a href="mailto:raytondevltd@gmail.com" class="text-white font-semibold hover:text-rayton-gold transition-colors break-all">raytondevltd@gmail.com</a></div>' +
+          '</div>' +
+          '<div class="contact-info-item">' +
+          '<div class="w-10 h-10 bg-rayton-gold/20 flex items-center justify-center flex-shrink-0">' +
+          '<i data-lucide="map-pin" class="w-5 h-5 text-rayton-gold"></i></div>' +
+          '<div><p class="text-white/50 text-xs uppercase tracking-wider mb-0.5">Location</p>' +
+          '<p class="text-white font-semibold">Lagos, Nigeria</p></div>' +
+          '</div>' +
+          '<div class="contact-info-item">' +
+          '<div class="w-10 h-10 bg-rayton-gold/20 flex items-center justify-center flex-shrink-0">' +
+          '<i data-lucide="linkedin" class="w-5 h-5 text-rayton-gold"></i></div>' +
+          '<div><p class="text-white/50 text-xs uppercase tracking-wider mb-0.5">LinkedIn</p>' +
+          '<a href="https://www.linkedin.com/in/anthony-ugboke-717957111" target="_blank" rel="noopener" class="text-white font-semibold hover:text-rayton-gold transition-colors">Anthony Ugboke</a></div>' +
+          '</div>' +
+          '</div>' +
+
+          '<div class="border-t border-white/10 pt-6">' +
+          '<p class="text-white/50 text-sm">Business Hours: Monday – Friday, 8:00am – 6:00pm WAT</p>' +
+          '</div></div>' +
+
+          // FORM SIDE
+          '<div class="reveal-right">' +
+          '<div class="bg-white/5 border border-white/10 p-8">' +
+          '<h3 class="font-barlow font-700 text-white text-2xl mb-6">Request a Quote</h3>' +
+          '<form id="contact-form" class="space-y-4" data-email="raytondevltd@gmail.com">' +
+          '<div class="grid sm:grid-cols-2 gap-4">' +
+          '<div><label class="form-label">Full Name *</label>' +
+          '<input type="text" name="name" required placeholder="Your full name" class="form-input" /></div>' +
+          '<div><label class="form-label">Company / Organisation</label>' +
+          '<input type="text" name="company" placeholder="Company name (optional)" class="form-input" /></div>' +
+          '</div>' +
+          '<div class="grid sm:grid-cols-2 gap-4">' +
+          '<div><label class="form-label">Email Address *</label>' +
+          '<input type="email" name="email" required placeholder="your@email.com" class="form-input" /></div>' +
+          '<div><label class="form-label">Phone Number</label>' +
+          '<input type="tel" name="phone" placeholder="+234..." class="form-input" /></div>' +
+          '</div>' +
+          '<div><label class="form-label">Service Required *</label>' +
+          '<select name="service" required class="form-input" style="background:#1a3a5c;color:#fff;">' +
+          '<option value="" style="background:#1a3a5c">Select a service...</option>' +
+          '<option value="estate" style="background:#1a3a5c">Estate Development</option>' +
+          '<option value="design" style="background:#1a3a5c">Architectural Design</option>' +
+          '<option value="construct" style="background:#1a3a5c">Construction</option>' +
+          '<option value="civil" style="background:#1a3a5c">Civil Engineering</option>' +
+          '<option value="maintain" style="background:#1a3a5c">Maintenance & Facilities</option>' +
+          '<option value="commercial" style="background:#1a3a5c">Commercial Projects</option>' +
+          '<option value="other" style="background:#1a3a5c">Other</option>' +
+          '</select></div>' +
+          '<div><label class="form-label">Project Details *</label>' +
+          '<textarea name="message" required rows="5" placeholder="Describe your project, location, timeline, and budget..." class="form-input resize-none"></textarea></div>' +
+          '<button type="submit" class="btn-primary w-full justify-center text-center py-4">Send Enquiry <i data-lucide="send" class="w-4 h-4"></i></button>' +
+          '<p class="text-white/40 text-xs text-center">We typically respond within 24 business hours.</p>' +
+          '</form></div></div>' +
+
+          '</div></div></section>' +
+
+          // WHY CHOOSE US
+          '<section class="py-20 bg-rayton-light">' +
+          '<div class="max-w-7xl mx-auto px-6">' +
+          '<div class="text-center mb-14 reveal">' +
+          '<span class="section-label">Why RAYTON</span>' +
+          '<span class="gold-line mx-auto mt-3"></span>' +
+          '<h2 class="section-heading text-4xl md:text-5xl">Why Choose RAYTON?</h2>' +
+          '</div>' +
+          '<div class="grid md:grid-cols-3 gap-6">' +
+          [
+            { icon: 'award', title: 'Proven Track Record', desc: 'Over 200 completed projects across Lagos and Nigeria with a 98% client satisfaction rate.' },
+            { icon: 'shield-check', title: 'Safety & Compliance', desc: 'Full HSE compliance, COREN-certified engineers, and a zero-accident policy on every site.' },
+            { icon: 'clock', title: 'On-Time Delivery', desc: 'We honour deadlines. Our project management systems ensure every build is completed as scheduled.' }
+          ].map((item, i) => '<div class="bg-white p-8 border-b-4 border-transparent hover:border-rayton-gold transition-all reveal delay-' + (i * 100 + 100) + '">' +
+            '<div class="w-12 h-12 bg-rayton-gold/10 flex items-center justify-center mb-5">' +
+            '<i data-lucide="' + item.icon + '" class="w-6 h-6 text-rayton-gold"></i></div>' +
+            '<h3 class="font-barlow font-700 text-rayton-dark text-xl mb-2">' + item.title + '</h3>' +
+            '<p class="text-rayton-gray text-sm leading-relaxed">' + item.desc + '</p>' +
+            '</div>').join('') +
+          '</div></div></section>' +
+
+          '</div>';
+
+        attachFormHandler('contact-form');
+      }
+
+      // ─── FORM HANDLER ────────────────────────────────────────────
+      function attachFormHandler(formId) {
+        const form = document.getElementById(formId);
+        if (!form) return;
+        form.addEventListener('submit', async e => {
+          e.preventDefault();
+          const btn = e.target.querySelector('button[type="submit"]');
+          const originalHTML = btn.innerHTML;
+          btn.disabled = true;
+          btn.textContent = 'Sending...';
+          try {
+            if (typeof submitContactForm === 'function') {
+              await submitContactForm(e.target);
+            } else {
+              await new Promise(resolve => setTimeout(resolve, 1500));
+            }
+            e.target.reset();
+            btn.textContent = 'Sent! We\'ll be in touch soon.';
+            btn.style.background = '#16a34a';
+          } catch (err) {
+            btn.textContent = 'Error — please try again';
+            btn.style.background = '#dc2626';
+          }
+          setTimeout(() => {
+            btn.disabled = false;
+            btn.innerHTML = originalHTML;
+            btn.style.background = '';
+          }, 4000);
+        });
+      }
+
+      // ─── INIT ─────────────────────────────────────────────────
+      render(location.pathname);
+    </script>
+    <script src="https://assets.appsmith.com/kite_script_injector_v020.js"></script>
+  </body>
+</html>

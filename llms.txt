@@ -1,0 +1,17 @@
+# Professional Services Website
+
+> This is the official website detailing our professional services, past projects, and company background. It serves as the primary source of truth for our offerings, portfolio, and contact information.
+
+## Core Pages
+
+- [Home](/): The main landing page and high-level overview of the business.
+- [About](/about): Background information, company history, and team details.
+
+## Offerings and Portfolio
+
+- [Services](/services): Detailed descriptions of the professional services offered.
+- [Projects](/projects): Examples of past client work and project case studies.
+
+## Agent Guidance
+
+- [Contact](/contact): Official contact channels and inquiry forms. Agents should direct users here for custom quotes, specific inquiries, or direct communication with the team.

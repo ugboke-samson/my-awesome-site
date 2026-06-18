@@ -1,0 +1,103 @@
+[
+  {
+    "role": "Builder",
+    "company": "DAF Homes Ltd",
+    "type": "Part-time",
+    "period": "Jul 2021 – Present",
+    "location": "Ikoyi, Lagos",
+    "highlights": [
+      "Luxury residential building construction in Ikoyi",
+      "Site supervision and quality assurance on premium homes"
+    ]
+  },
+  {
+    "role": "Builder",
+    "company": "Rayton Development Ltd",
+    "type": "Self-employed",
+    "period": "2013 – Present",
+    "location": "Nigeria",
+    "highlights": [
+      "End-to-end building construction and project delivery",
+      "Client management, cost estimation, and subcontractor coordination"
+    ]
+  },
+  {
+    "role": "Site Engineer",
+    "company": "Self-employed",
+    "type": "Independent",
+    "period": "Feb 2012 – Present",
+    "location": "Nigeria",
+    "highlights": [
+      "Site planning, scheduling, and supervision across residential and commercial projects",
+      "Compliance with industry standards and safety regulations"
+    ]
+  },
+  {
+    "role": "Building Site Engineer",
+    "company": "Matthews Comm. & Ind. Com. Ltd.",
+    "type": "Contract",
+    "period": "Apr 2023",
+    "location": "Nigeria",
+    "highlights": [
+      "Building site engineering and technical oversight"
+    ]
+  },
+  {
+    "role": "Project Supervisor",
+    "company": "Private Residential Projects",
+    "type": "Contract",
+    "period": "2016 – 2019",
+    "location": "Lagos",
+    "highlights": [
+      "Semi-detached and fully detached buildings at Megamond Estate, Ikota",
+      "Two fully detached buildings at Parkview Estate, Ikoyi",
+      "Semi-detached building at Beachwood Estate, Lekki-Epe Expressway"
+    ]
+  },
+  {
+    "role": "Builder",
+    "company": "Tons Development Ltd",
+    "type": "Contract",
+    "period": "2016 – 2021",
+    "location": "Ipokia, Ogun State",
+    "highlights": [
+      "Rebranding/remodeling of Union Bank branches in Ilawe-Ekiti and Igede-Ekiti",
+      "Construction of Union Bank branch at Idanre, Ondo State",
+      "Construction of a 1,000-seater hall at CRIN, Ibadan",
+      "Construction of lorry park, steel sheds, and warehouse flooring at Suntory Beverages, Agbara",
+      "Construction of a 190-bed hostel at Bowen University Teaching Hospital, Ogbomosho"
+    ]
+  },
+  {
+    "role": "Building Engineer",
+    "company": "Quest Resources Construction Ltd",
+    "type": "Full-time",
+    "period": "2015 – 2016",
+    "location": "Nigeria",
+    "highlights": [
+      "Supervised construction of the Imo Fitness Centre and Tourism Resort",
+      "Ensured compliance with specifications and safety standards"
+    ]
+  },
+  {
+    "role": "Technical Officer",
+    "company": "The Federal Polytechnic, Ado-Ekiti",
+    "type": "Full-time",
+    "period": "2012 – 2013",
+    "location": "Ado-Ekiti, Ekiti State",
+    "highlights": [
+      "Prepared job estimates for maintenance works",
+      "Supervised maintenance works and managed material records"
+    ]
+  },
+  {
+    "role": "Industrial Training",
+    "company": "Federal Capital Development Authority (FCDA)",
+    "type": "Training",
+    "period": "2009",
+    "location": "Abuja, Nigeria",
+    "highlights": [
+      "Industrial training on Head of Service prototype building project"
+    ]
+  }
+]

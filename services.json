@@ -1,0 +1,62 @@
+[
+  {
+    "id": "estate",
+    "icon": "building-2",
+    "title": "Estate Development",
+    "desc": "End-to-end residential and commercial estate development — from land acquisition through planning, construction, and handover of premium housing estates.",
+    "image": {
+      "src": "https://static.kite.ai/image/upload/w_800,c_scale/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-project-estate.png",
+      "alt": "Luxury estate development"
+    }
+  },
+  {
+    "id": "design",
+    "icon": "pencil-ruler",
+    "title": "Architectural Design",
+    "desc": "Professional architectural and structural design services, turning your vision into precise construction-ready blueprints with modern engineering standards.",
+    "image": {
+      "src": "https://static.kite.ai/image/upload/w_800,c_scale/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-service-design.png",
+      "alt": "Architectural design blueprints"
+    }
+  },
+  {
+    "id": "construct",
+    "icon": "hard-hat",
+    "title": "Construction",
+    "desc": "Full-scope construction of buildings, roads, bridges, dams, and water supply systems — built to last using modern techniques and quality materials.",
+    "image": {
+      "src": "https://static.kite.ai/image/upload/w_800,c_scale/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-service-construct.png",
+      "alt": "Construction workers on site"
+    }
+  },
+  {
+    "id": "civil",
+    "icon": "bridge",
+    "title": "Civil Engineering",
+    "desc": "Expert civil engineering for roads, bridges, dams, and water supply infrastructure — delivering durable public and private works across Nigeria.",
+    "image": {
+      "src": "https://static.kite.ai/image/upload/w_800,c_scale/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-project-road.png",
+      "alt": "Road and bridge construction"
+    }
+  },
+  {
+    "id": "maintain",
+    "icon": "wrench",
+    "title": "Maintenance & Facilities",
+    "desc": "Ongoing maintenance services ensuring your constructed environment stays safe, efficient, and in optimal condition for years to come.",
+    "image": {
+      "src": "https://static.kite.ai/image/upload/w_800,c_scale/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-service-maintain.png",
+      "alt": "Facility maintenance services"
+    }
+  },
+  {
+    "id": "commercial",
+    "icon": "landmark",
+    "title": "Commercial Projects",
+    "desc": "Delivering commercial and government infrastructure projects — office buildings, industrial facilities, and institutional structures built to the highest standards.",
+    "image": {
+      "src": "https://static.kite.ai/image/upload/w_800,c_scale/app/e31fbfe8-7be3-46d5-b093-c01cf85d067b/iter2/iter2-project-commercial.png",
+      "alt": "Commercial building project"
+    }
+  }
+]
